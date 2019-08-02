@@ -1,0 +1,32 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.marcador {
+    border: 2px solid red;
+}
+
+.marcador2 {
+    border: 2px solid black;
+}
+
+.bg-blue {
+    background: #4364F7;
+}
+
+.img-right {
+    position: absolute;
+    left: 30%;
+}
+/*-------------- Navbar --------------*/
+
+.btn {
+    border-radius: 100px;
+    font-size: 16px;
+    color: #212121;
+}
+
+.btn-cv {
+    background: #4364F7;
+    color: #FFF;
+}
