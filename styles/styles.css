@@ -7,7 +7,7 @@ h1 {
 }
 
 h2 {
-    font-size: 58px;
+    font-size: 50px;
 }
 
 h3 {
@@ -15,23 +15,24 @@ h3 {
 }
 
 h4 {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 h5 {
     font-size: 18px;
 }
 
-.marcador {
-    border: 2px solid #4364F7;;
+h6 {
+    font-size: 14px;
 }
 
-.marcador2 {
-    border: 2px solid black;
+ul {
+    list-style-type: none;
 }
 
 .bg-blue {
     background: #4364F7;
+    color: #FFF;
 }
 
 .color-blue {
@@ -63,25 +64,81 @@ h5 {
 .btn-cv-small {
     background: #4364F7;
     color: #FFF;
-    width: 15%;
+    width: 30%;
 }
 
 /*-------------- Skillbar --------------*/
+
+.circle-color {
+    color: #4364F7;
+}
 
 .skill-bar {
     background: rgba(33, 33, 33, 0.25);
     width: 100%;
     border-radius: 30px;
+    margin-bottom: 9px;
+    height:20px;
 }
 
 .skill {
     text-align: right;
     color: #FFF;
-    padding: 10px;
+    border-radius: 30px;
+    background: #4364F7;
+    padding-right: 2%;
+    height: 20px;
 }
 
 .html {
-    background: #4364F7;
     width: 60%;
-    border-radius: 30px;
+}
+
+.css {
+    width: 35%;
+}
+
+.javascript {
+    width: 15%;
+}
+
+.java {
+    width: 35%;
+}
+
+.c {
+    width: 25%;
+}
+
+.bootstrap {
+    width: 30%;
+}
+
+.figma {
+    width: 20%;
+}
+
+/*-------------- Projects --------------*/
+
+.img-colorless {
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(0.8); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .8s ease-in-out;  
+}
+
+.img-colorless:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+}
+
+/*-------------- Projects --------------*/
+
+.fa-stack .fa-circle {
+    color: #FFF;
+}
+
+.fab:hover {
+    opacity: 0.5;
 }
