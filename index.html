@@ -16,19 +16,20 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
-    <!--<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+    <script src="https://kit.fontawesome.com/8498a0ae19.js"></script>
 
     <title>Nicolas Goh</title>
 </head>
 
 <body>
 
+    <!-- HOME PAGE-->
     <div class="container-fluid">
         <div class="row h-100">
-            <div class="col-md-4 bg-blue d-flex align-items-center">
+            <!-- LEFT SIDE PROFILE PICTURE-->
+            <aside class="col-md-4 bg-blue d-flex align-items-center">
                 <img class="img-fluid img-right" src="images/Profile Image.png">
-            </div>
+            </aside>
 
             <div class="col-md-8">
                 <!-- NAVBAR -->
@@ -43,24 +44,103 @@
                     <div class="collapse navbar-collapse" id="navigationBar">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item mx-3">
-                                <a class="nav-link btn" href="#">About me</a>
+                                <a class="nav-link btn" href="#aboutMe">About me | resume</a>
                             </li>
                             <li class="nav-item mx-3">
-                                <a class="nav-link btn" href="#">Portfolio</a>
+                                <a class="nav-link btn" href="#resume">Skills | Portfolio</a>
                             </li>
                             <li class="nav-item mx-3">
                                 <a class="nav-link btn" href="#">Contact</a>
                             </li>
                             <li class="nav-item mx-3">
-                                <a class="nav-link btn btn-cv" href="#">Download CV</a>
+                                <a class="nav-link btn btn-cv" href="Nicolas Kenji Fukusima Goh - CV.pdf"
+                                    target="_blank" download>Download CV</a>
                             </li>
                         </ul>
                     </div>
 
                 </nav>
+
+                <!-- MAIN TEXT -->
+                <div class="container-fluid">
+                    <div class="row h-75 d-flex align-items-center">
+                        <div class="col-md-11 text-center">
+                            <h1 class="font-weight-bold text-uppercase">Meet</h1>
+                            <h1 class="font-weight-bold text-uppercase color-blue">My Work</h1>
+                            <h4 class="font-italic text-lowercase">"Creativity is Intelligence having fun"</h4>
+                        </div>
+                        <div class="col-md-1">Add dot navigation here</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <!-- ABOUT ME PAGE -->
+    <div id="aboutMe" class="container">
+
+        <div class="row h-100 align-items-center">
+
+            <div class="col-md-12">
+                <h2 class="text-center color-blue pb-3">Hello! I'm <br> Nicolas Goh</h2>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae porta enim, eget gravida
+                    lacus. Nullam malesuada vulputate risus. Vestibulum hendrerit felis dolor, vel bibendum nisi laoreet
+                    quis. Vestibulum eget tortor gravida, ullamcorper purus rutrum, tincidunt ligula. Quisque at tortor
+                    nunc. Phasellus mi mi, tempus nec urna et, euismod rhoncus ex. Vivamus ornare urna a erat malesuada,
+                    sit amet vehicula sem feugiat.</h4>
+
+                <h4>Etiam sit amet dignissim nunc, sed dignissim arcu. Suspendisse
+                    gravida, dolor at efficitur bibendum, felis erat auctor ipsum, ac rutrum nulla ex et tortor. Sed
+                    pellentesque dolor at tincidunt posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam gravida nisl purus, id sollicitudin nisl vestibulum quis. Phasellus volutpat lorem quis sapien
+                    efficitur, a dignissim augue luctus. Donec eleifend, ligula eget bibendum consequat, augue nisi
+                    imperdiet ante, id consequat eros magna nec urna. Etiam molestie justo erat, sed condimentum augue
+                    condimentum ut.</h4>
+
+                <h4>Suspendisse eget auctor massa. Cras vehicula ligula ac tellus eleifend, vitae tempus est tincidunt.
+                    Etiam id felis ac tellus elementum accumsan sed sed sapien. Duis sodales nulla dui, a sollicitudin
+                    quam tristique sed. Pellentesque quis lacus et dolor tincidunt tempor. Etiam maximus, quam feugiat
+                    eleifend condimentum, magna magna tincidunt massa, vel feugiat diam nulla vitae sapien. Quisque non
+                    malesuada ipsum. Nulla luctus justo eget lorem accumsan, eu consectetur leo lacinia.</h4>
+
+                <div class="row w-100 justify-content-center pt-5">
+                    <a class="nav-link btn btn-cv btn-cv-small" href="Nicolas Kenji Fukusima Goh - CV.pdf"
+                        target="_blank" download>Download CV</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- RESUME/PORTFOLIO PAGE -->
+    <div id="resume" class="container-fluid px-5 h-100 marcador">
+        <h2 class="color-blue text-center pt-3">Skills & Languages</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-3"><h3>HTML</h3></div>
+                    <div class="col-md-9">
+                        <div class="skill-bar">
+                            <div class="skill html">
+                                60%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">Language</div>
+        </div>
+
+        <h2 class="color-blue text-center pt-3">Projects</h2>
+        <div class="row">
+            <div class="col-md-3">Card1</div>
+            <div class="col-md-3">Card2</div>
+            <div class="col-md-3">Card3</div>
+            <div class="col-md-3">Card4</div>
+        </div>
+    </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
