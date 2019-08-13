@@ -1,17 +1,15 @@
 html, body {
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    overflow: auto;
 }
+
 h1 {
     font-size: 90px;
 }
 
 h2 {
     font-size: 50px;
-}
-
-h3 {
-    font-size: 36px;
 }
 
 h4 {
@@ -39,11 +37,18 @@ ul {
     color: #4364F7;
 }
 
+.marcador {
+    border: 2px solid blue;
+}
 /*-------------- Home Page --------------*/
 
 .img-right {
     position: absolute;
     left: 30%;
+}
+
+div.image {
+    content: url(../images/Profile\ Image.png);
 }
 
 /*-------------- Navbar --------------*/
@@ -141,4 +146,47 @@ ul {
 
 .fab:hover {
     opacity: 0.5;
+}
+
+/*-------------- Media Queries --------------*/
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 54px;
+    }
+    
+    h2 {
+        font-size: 28px;
+    }
+    
+    h4 {
+        font-size: 16px;
+    }
+    
+    h5 {
+        font-size: 14px;
+    }
+    
+    h6 {
+        font-size: 12px;
+    }
+
+    .img-right {
+        position: absolute;
+        left: 5%;
+        top: 1%;
+        width: 90%;
+    }
+
+    aside.col-md-4.bg-blue.d-flex.align-items-center {
+        height: 30%;
+    }
+
+    ul.navbar-nav.ml-auto {
+        padding-top: 65px;
+    }
+
+    div.row.h-75.d-flex.align-items-center {
+        padding-bottom: 450px;
+    }
 }

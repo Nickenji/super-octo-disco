@@ -15,8 +15,10 @@
     <link rel="stylesheet" href="styles/styles.css">
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-
+    <!-- Fontawesome icons -->
     <script src="https://kit.fontawesome.com/8498a0ae19.js"></script>
+    <!-- My JS -->
+    <script src="scripts/scripts.js"></script>
 
     <title>Nicolas Goh</title>
 </head>
@@ -28,20 +30,20 @@
         <div class="row h-100">
             <!-- LEFT SIDE PROFILE PICTURE-->
             <aside class="col-md-4 bg-blue d-flex align-items-center">
-                <img class="img-fluid img-right" src="images/Profile Image.png">
+                <div class="image img-fluid img-right"></div>
             </aside>
 
             <div class="col-md-8">
                 <!-- NAVBAR -->
                 <nav class="navbar text-uppercase navbar-expand-lg m-4">
 
-                    <!-- COLLAPSE BUTTON -->
+                    <!-- COLLAPSE BUTTON 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigationBar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                        <i class="fas fa-bars"></i>
+                    </button> -->
 
-                    <!-- ITEMS/LINKS-->
-                    <div class="collapse navbar-collapse" id="navigationBar">
+                    <!-- ITEMS/LINKS class="collapse navbar-collapse" id="navigationBar" -->
+                    <div>
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item mx-3">
                                 <a class="nav-link btn" href="#aboutMe">About me | resume</a>
@@ -62,16 +64,14 @@
                 </nav>
 
                 <!-- MAIN TEXT -->
-                <div class="container-fluid">
+                <div class="container-fluid" id="home">
                     <div class="row h-75 d-flex align-items-center">
-                        <div class="col-md-11 text-center">
+                        <div class="col-md-12 text-center">
                             <h1 class="font-weight-bold text-uppercase">Meet</h1>
                             <h1 class="font-weight-bold text-uppercase color-blue">My Work</h1>
                             <h4 class="font-italic text-lowercase">"Creativity is Intelligence having fun"</h4>
                             <i class="fas fa-sort-down fa-lg"></i>
                         </div>
-
-                        <div class="col-md-1">Add dot navigation here</div>
                     </div>
                 </div>
             </div>
@@ -81,7 +81,7 @@
     <!-- ABOUT ME PAGE -->
     <div id="aboutMe" class="container">
 
-        <div class="row h-100 align-items-center">
+        <div class="row align-items-center">
 
             <div class="col-md-12">
                 <h2 class="text-center color-blue pb-3">Hello! I'm <br> Nicolas Goh</h2>
@@ -99,15 +99,9 @@
                     imperdiet ante, id consequat eros magna nec urna. Etiam molestie justo erat, sed condimentum augue
                     condimentum ut.</h4>
 
-                <h4>Suspendisse eget auctor massa. Cras vehicula ligula ac tellus eleifend, vitae tempus est tincidunt.
-                    Etiam id felis ac tellus elementum accumsan sed sed sapien. Duis sodales nulla dui, a sollicitudin
-                    quam tristique sed. Pellentesque quis lacus et dolor tincidunt tempor. Etiam maximus, quam feugiat
-                    eleifend condimentum, magna magna tincidunt massa, vel feugiat diam nulla vitae sapien. Quisque non
-                    malesuada ipsum. Nulla luctus justo eget lorem accumsan, eu consectetur leo lacinia.</h4>
-
-                <div class="row w-100 justify-content-center pt-5">
-                    <a class="btn btn-cv btn-cv-small" href="Nicolas Kenji Fukusima Goh - CV.pdf" target="_blank"
-                        download>Download CV</a>
+                <div class="row w-100 justify-content-center py-3">
+                    <a class="btn btn-cv btn-cv-small text-uppercase" href="Nicolas Kenji Fukusima Goh - CV.pdf"
+                        target="_blank" download>Download CV</a>
                 </div>
             </div>
 
@@ -261,12 +255,12 @@
         <div class="row pb-5">
             <div class="card-deck">
                 <div class="card">
-                    <a href="#"><img class="card-img-top img-colorless" src="images/project1.PNG"
-                            alt="Card image cap"></a>
+                    <a href="https://vigorous-jang-ab0934.netlify.com/" target="_blank"><img
+                            class="card-img-top img-colorless" src="images/project1.PNG" alt="Card image cap"></a>
                 </div>
                 <div class="card">
-                    <a href="#"><img class="card-img-top img-colorless" src="images/project2.PNG"
-                            alt="Card image cap"></a>
+                    <a href="https://elated-golick-ad46dc.netlify.com/" target="_blank"><img
+                            class="card-img-top img-colorless" src="images/project2.PNG" alt="Card image cap"></a>
                 </div>
             </div>
         </div>
@@ -307,7 +301,7 @@
                     </span>
                 </div>
 
-                <h5 class="pt-3 pb-4">Contact me: nicolas.goh@hotmail.com | nicolas.goh@usp.br</h5>
+                <h5 class="pt-3 pb-3">Contact me: nicolas.goh@hotmail.com | nicolas.goh@usp.br</h5>
                 <h6 class="pb-4">Website designed by <i class="far fa-copyright"></i> Nicolas Kenji Fukusima Goh</h6>
             </div>
 
